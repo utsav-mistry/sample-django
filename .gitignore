@@ -1,0 +1,52 @@
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# Django migrations
+**/migrations/
+!**/migrations/__init__.py
+
+# SQLite database
+db.sqlite3
+*.sqlite3
+
+# Logs
+*.log
+
+# Static/media
+staticfiles/
+static/
+media/
+
+# VSCode / IDEs
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Test coverage
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+.pytest_cache/
+
+# pipenv / poetry / lock files
+Pipfile.lock
+poetry.lock
+```
